@@ -98,7 +98,6 @@ void moveEnemy(Player &enemy,Player &pl)
 
 void quit()
 {
-    resetTermios();
     std::exit(0);
 }
 
@@ -118,7 +117,6 @@ int main()
     Player enemy(0,0);
 
     char c;
-    initTermios(0);
     while (true)
     {   
         check_status(pl,enemy);

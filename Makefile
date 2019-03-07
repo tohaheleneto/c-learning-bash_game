@@ -1,2 +1,2 @@
 all:
-	@g++ game.cpp settings.cpp
+	@g++ game.cpp
